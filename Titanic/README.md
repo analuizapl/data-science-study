@@ -7,8 +7,11 @@ This repository contains code for predicting passenger survival on the Titanic u
 The dataset is loaded from two CSV files: train.csv and test.csv. The data includes the following columns:
 
 PassengerId: A unique identifier for each passenger (numeric, primary key).
+
 Survived: Target variable indicating whether the passenger survived or not (0 = No, 1 = Yes).
+
 Pclass: Passenger class (1 = 1st class, 2 = 2nd class, 3 = 3rd class).
+
 Name: Name of the passenger (categorical).
 Sex: Gender of the passenger (categorical).
 Age: Age of the passenger (numeric, continuous).
